@@ -4,7 +4,7 @@ class SearchBar extends Component {
   render() {
     return (
       <div>
-        Search Bar Here!
+        <input type="text" placeholder="Search here.."/>
       </div>
     )
   }
