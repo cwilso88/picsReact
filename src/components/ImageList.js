@@ -4,7 +4,7 @@ const ImageList = props => {
     const imageList = props.images.map((image) => {
         return(
             <div>
-                <img alt="cool" src={image.urls.small} /> 
+                <img key={image.id} alt="cool" src={image.urls.small} /> 
             </div>
         ) 
       });
